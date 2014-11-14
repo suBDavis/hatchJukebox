@@ -69,10 +69,23 @@ $(document).ready(function() {
 </script>
 </head>
 <body>
+<<<<<<< HEAD
 	<button onclick="sendMsg({'cmd':'playpause'})">PlayPause</button>
 	<button onclick="sendMsg({'cmd':'volup'})">VolUp</button>
 	<button onclick="sendMsg({'cmd':'voldown'})">VolDown</button>
 	<button onclick="sendMsg({'cmd':'playlist'})">playlist</button>
 
+=======
+<pre>
+Format: sendMsg({'cmd':'COMMANDS' [,ARGS]})
+-------------------------------------------
+Substitute COMMANDS for one of the following commands:
+  - playpause (no parameters)
+  - play (parameter: 'uri':'YOUTUBE_URL')
+  - volup (no parameters)
+  - voldn (no parameters)
+  - playlist (no parameters)
+</pre>
+>>>>>>> a556291ed77aa64b174eb5869894073b799bbb3e
 </body>
 </html>
